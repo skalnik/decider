@@ -1,7 +1,12 @@
 require 'test_helper'
 
 class DeciderTest < Test::Unit::TestCase
-  should "probably rename this file and start testing for real" do
-    flunk "hey buddy, you should probably rename this file and start testing for real"
+  should "pick the the only choice if given one" do
+    assert_equal 'one', Decider::decide('one')
+  end
+  
+  should "pick one of the given choices" do
+    choices = ['one', 'two', 'three']
+    assert_contains choices, Decider::decide(*choices)
   end
 end
