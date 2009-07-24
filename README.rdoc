@@ -1,0 +1,7 @@
+= decider
+
+Description goes here.
+
+== Copyright
+
+Copyright (c) 2009 Mike Skalnik. See LICENSE for details.
