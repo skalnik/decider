@@ -21,6 +21,8 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "bin/decider",
+     "decider.gemspec",
      "lib/decider.rb",
      "test/decider_test.rb",
      "test/test_helper.rb"
