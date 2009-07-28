@@ -6,8 +6,11 @@ me, I decided to make a tiny gem that makes deciding easy.
 = Example
 <tt>
 $ decider yes no
+
 no
+
 $ decider one two three
+
 two
 </tt>
 
