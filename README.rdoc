@@ -4,15 +4,13 @@ After constantly opening up irb so that Ruby can make a decision for
 me, I decided to make a tiny gem that makes deciding easy. 
 
 = Example
-<tt>
-$ decider yes no
+<tt>$ decider yes no
 
 no
 
 $ decider one two three
 
-two
-</tt>
+two</tt>
 
 == Copyright
 
