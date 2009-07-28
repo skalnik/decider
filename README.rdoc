@@ -4,11 +4,11 @@ After constantly opening up irb so that Ruby can make a decision for
 me, I decided to make a tiny gem that makes deciding easy. 
 
 = Example
-  $ decider yes no
-  no
-  $ decider one two three
-  two
-
+ $ decider yes no
+ no
+ $ decider one two three
+ two
+ 
 == Copyright
 
 Copyright (c) 2009 Mike Skalnik. See LICENSE for details.
