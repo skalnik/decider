@@ -2,14 +2,13 @@
 
 Gem::Specification.new do |s|
   s.name = %q{decider}
-  s.version = "1.0.0"
+  s.version = "2.0.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Mike Skalnik"]
-  s.date = %q{2009-07-23}
-  s.default_executable = %q{decider}
+  s.date = %q{2009-08-06}
   s.email = %q{mike.skalnik@gmail.com}
-  s.executables = ["decider"]
+  s.executables = ["8ball", "decider"]
   s.extra_rdoc_files = [
     "LICENSE",
      "README.rdoc"
@@ -22,7 +21,6 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "bin/decider",
-     "decider.gemspec",
      "lib/decider.rb",
      "test/decider_test.rb",
      "test/test_helper.rb"
